@@ -421,7 +421,7 @@ export default function TravelPortfolio() {
           <div className="flex items-center justify-center">
             <div className="relative">
               <img
-                src="/your-photo.jpeg"
+                src={`${import.meta.env.BASE_URL}your-photo.jpeg`}
                 alt="Yuqi Zhu"
                 className="h-[350px] w-[350px] rounded-full object-cover border-8 border-white shadow-2xl"
               />
