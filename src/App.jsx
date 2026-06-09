@@ -476,7 +476,7 @@ export default function TravelPortfolio() {
               <a href="https://github.com/yuqihahaha" className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 font-bold hover:bg-white/15">
                 GitHub
               </a>
-              <a href="https://www.linkedin.com/me?trk=p_mwlite_profile_self-secondary_nav" className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 font-bold hover:bg-white/15">
+              <a href="https://www.linkedin.com/in/yuqi-zhu-13a808291/" className="flex items-center gap-3 rounded-2xl bg-white/10 p-4 font-bold hover:bg-white/15">
                 LinkedIn
               </a>
             </div>
