@@ -66,7 +66,7 @@ const PROJECTS = [
     "Used machine learning models to predict customer churn and proposed business strategies to reduce churn risk.",
   tech: ["R", "KNN", "SVM", "Random Forest", "Prediction"],
   icon: BarChart3,
-  links: { github: "#" },
+  links: { github: `${import.meta.env.BASE_URL}SAPDatathon.html` },
   showButton: true,
 },
 {
