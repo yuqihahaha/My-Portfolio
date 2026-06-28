@@ -79,7 +79,7 @@ const PROJECTS = [
   tech: ["Python", "Pandas", "Matplotlib", "Excel", "EDA"],
   icon: Compass,
   links: { github: "https://github.com/yuqihahaha/Power-BI-Project" },
-  showButton: false,
+  showButton: true,
 },
 {
   title: "BFS Treasure Hunt",
