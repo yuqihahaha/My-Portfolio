@@ -78,7 +78,7 @@ const PROJECTS = [
     "Analyzed clothing sales data and developed business recommendations to improve profit and reduce operational risks.",
   tech: ["Python", "Pandas", "Matplotlib", "Excel", "EDA"],
   icon: Compass,
-  links: { github: "#" },
+  links: { github: "https://github.com/yuqihahaha/Power-BI-Project" },
   showButton: false,
 },
 {
