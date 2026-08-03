@@ -4,7 +4,7 @@ const PLACES = [
   { name: "Canada", lat: 56.1304, lng: -106.3468 },
   { name: "United States", lat: 39.8283, lng: -98.5795 },
   { name: "China", lat: 35.8617, lng: 104.1954 },
-  { name: "Japan", lat: 36.2048, lng: 138.2529 },
+  { name: "Finland", lat: 61.9241, lng: 25.7482 },
   { name: "Denmark", lat: 56.2639, lng: 9.5018 },
   { name: "Netherlands", lat: 52.1326, lng: 5.2913 },
   { name: "Sweden", lat: 60.1282, lng: 18.6435 },

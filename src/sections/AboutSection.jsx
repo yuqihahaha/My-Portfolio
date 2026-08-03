@@ -15,7 +15,7 @@ export default function AboutSection() {
         <div className="flex items-center justify-center">
           <div className="relative">
             <img
-              src={`${import.meta.env.BASE_URL}your-photo.jpeg`}
+              src={`${import.meta.env.BASE_URL}your-photo.jpg`}
               alt="Yuqi Zhu"
               className="aspect-square w-full max-w-[320px] rounded-full border-8 border-white object-cover shadow-2xl"
             />

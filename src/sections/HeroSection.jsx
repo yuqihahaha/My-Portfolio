@@ -5,7 +5,7 @@ import { GREETING } from "../data/portfolioData";
 
 export default function HeroSection() {
   return (
-    <section id="intro" className="relative flex min-h-[720px] items-center px-6 py-28 md:px-16 md:py-32">
+    <section id="intro" className="relative z-10 flex min-h-[720px] items-center px-6 py-28 md:px-16 md:py-32">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -right-20 top-20 h-72 w-72 rounded-full bg-sky-200/50 blur-3xl" />
         <div className="absolute bottom-10 left-20 h-80 w-80 rounded-full bg-orange-200/50 blur-3xl" />
@@ -20,10 +20,10 @@ export default function HeroSection() {
           <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-sky-700 shadow">
             <Luggage size={18} /> Boarding now for my coding journey
           </div>
-          <h1 className="mb-6 text-5xl font-black leading-tight tracking-tight text-slate-950 md:text-6xl">
+          <h1 className="hero-heading mb-6 text-5xl font-black leading-tight tracking-tight text-slate-950 md:text-6xl">
             Hi, I'm Yuqi Zhu
           </h1>
-          <p className="mb-10 max-w-2xl text-2xl leading-[1.7] text-slate-600">
+          <p className="hero-description mb-10 max-w-2xl text-2xl leading-[1.7] text-slate-600">
             {GREETING}
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">

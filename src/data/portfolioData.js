@@ -40,7 +40,7 @@ export const PROJECTS = [
     stamp: "EDA → GLM",
     description:
       "A logistic regression project studying factors associated with aerial bucketing usage in wildfire response data.",
-    tech: ["R", "tidyverse", "AUC", "variable selection", "Logistic Regression"],
+    tech: ["R", "tidyverse", "AUC", "Variable selection", "Logistic Regression"],
     icon: Compass,
     links: { github: "https://github.com/yuqihahaha/Wildfire-Bucketing-Analysis" },
     showButton: true,

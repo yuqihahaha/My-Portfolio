@@ -38,6 +38,68 @@ body {
   margin: 0;
 }
 
+.cloud-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.82;
+  filter: contrast(1.08);
+}
+
+.dawn-mist {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.dawn-mist-layer {
+  position: absolute;
+  left: -20%;
+  width: 140%;
+  height: 45%;
+  border-radius: 50%;
+  filter: blur(55px);
+  opacity: 0.3;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(238, 255, 253, 0.8),
+    rgba(255, 245, 231, 0.65),
+    transparent
+  );
+  animation: drift-mist 24s ease-in-out infinite alternate;
+}
+
+.dawn-mist-one {
+  top: 8%;
+}
+
+.dawn-mist-two {
+  top: 45%;
+  opacity: 0.2;
+  animation-delay: -10s;
+  animation-duration: 32s;
+}
+
+@keyframes drift-mist {
+  from {
+    transform: translateX(-5%) scale(1);
+  }
+
+  to {
+    transform: translateX(5%) scale(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dawn-mist-layer {
+    animation: none;
+  }
+}
+
 #root {
   width: 100%;
   min-height: 100svh;
@@ -88,4 +150,28 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+[data-period="night"] .hero-heading {
+  color: #eef7fa;
+}
+
+[data-period="night"] .hero-description {
+  color: #b8cbd4;
+}
+
+/*
+ * Only change headings in sections whose headings are directly
+ * displayed over the ambient background.
+ */
+[data-period="night"] #projects .section-heading,
+[data-period="night"] #skills .section-heading,
+[data-period="night"] #contact .section-heading {
+  color: #eef7fa;
+}
+
+[data-period="night"] #projects .section-eyebrow,
+[data-period="night"] #skills .section-eyebrow,
+[data-period="night"] #contact .section-eyebrow {
+  color: #9ed9e5;
 }
