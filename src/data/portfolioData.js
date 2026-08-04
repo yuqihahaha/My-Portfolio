@@ -29,7 +29,7 @@ export const PROJECTS = [
     stamp: "SQL → CRUD",
     description:
       "A web application for managing pet shelter records with custom APIs and a normalized Oracle database schema.",
-    tech: ["React", "JavaScript", "Oracle DB", "SQL", "REST APIs"],
+    tech: ["React", "JavaScript", "SQL","Oracle DB"],
     icon: Database,
     links: { github: "https://github.com/yuqihahaha/Pet-Shelter-Management" },
     showButton: true,

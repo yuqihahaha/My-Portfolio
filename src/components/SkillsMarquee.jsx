@@ -20,7 +20,7 @@ export default function SkillsMarquee() {
           transition={{
             repeat: Infinity,
             repeatType: "loop",
-            duration: 22,
+            duration: 40,
             ease: "linear",
           }}
         >
